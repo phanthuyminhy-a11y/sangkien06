@@ -1,0 +1,32 @@
+# Files to ignore when deploying to Vercel
+
+# Documentation
+DEPLOY_GUIDE.md
+CHECKLIST.md
+QUICK_START.md
+
+# Environment examples
+.env.local.example
+
+# Git
+.git
+.gitignore
+
+# Development
+node_modules
+.env.local
+.env.development
+
+# Build
+dist
+dist-ssr
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
